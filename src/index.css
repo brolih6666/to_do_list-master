@@ -37,9 +37,3 @@ code {
 }
 
 /* placeholder text style */
-input[type='date']::-webkit-datetime-edit-text,
-input[type='date']::-webkit-datetime-edit-month-field,
-input[type='date']::-webkit-datetime-edit-day-field,
-input[type='date']::-webkit-datetime-edit-year-field {
-	border: #413620;
-}
