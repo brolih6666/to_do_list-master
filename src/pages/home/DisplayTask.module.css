@@ -1,0 +1,75 @@
+.tasks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #444;
+	width: 660px;
+	max-width: 85%;
+	margin: 0 auto;
+	padding: 5px 0px;
+	border-radius: 20px;
+}
+
+.task-wrap {
+	font-family: 'Dancing Script';
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #413620;
+	margin: 10px 0;
+	margin-right: auto;
+	padding: 20px 20px;
+	border-radius: 15px;
+}
+.task-wrap .input-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.task-wrap input {
+	outline: none;
+	background-color: transparent;
+	border: none;
+	font-family: 'Dancing Script';
+	color: #d5d1bc;
+}
+.task-wrap .task-name {
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-right: auto;
+	width: 125%;
+}
+
+.task-wrap .task-date {
+	font-weight: 700;
+	font-size: 0.7em;
+	margin-top: 10px;
+	margin-right: auto;
+	color: #d5d1bc;
+}
+.task-wrap .button-wrap {
+	display: flex;
+}
+.task-button {
+	background-color: transparent;
+	outline: none;
+	border: none;
+	margin-right: -15px;
+}
+
+.task-button img {
+	width: 45%;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+.task-button img:hover {
+	width: 50%;
+}
+
+.completed {
+	text-decoration: line-through;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #d5d1bc;
+	overflow-x: hidden;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.btn {
+	padding: 10px 15px;
+	border: 2px solid #413620;
+	border-radius: 10px;
+	font-family: 'Dancing Script';
+	font-size: 1em;
+	font-weight: 700;
+	color: #413620;
+	cursor: pointer;
+	margin-top: 20px;
+	background-color: #d5d1bc;
+}
+
+.btn:hover {
+	color: #d5d1bc;
+	background-color: #413620;
+}
+
+/* placeholder text style */
+input[type='date']::-webkit-datetime-edit-text,
+input[type='date']::-webkit-datetime-edit-month-field,
+input[type='date']::-webkit-datetime-edit-day-field,
+input[type='date']::-webkit-datetime-edit-year-field {
+	border: #413620;
+}
